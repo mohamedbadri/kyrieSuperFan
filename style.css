@@ -1,0 +1,269 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: block;
+}
+
+.column1 {
+	height: 20%;
+	width: 100%;
+	display: flex;
+}
+
+
+
+.column2 {
+	height: 60%;
+	width: 100%;
+	display: flex;
+}
+
+.column3 {
+	height: 20%;
+	width: 100%;
+	display: flex;
+}
+
+.uncledrew {
+	height: 100%;
+	width: 10%;
+	display: flex;
+}
+
+.logo {
+	height: 100%;
+	width: 10%;
+	display: flex;
+}
+
+.title {
+	height: 100%;
+	width: 80%;
+	display: flex;
+}
+
+.main {
+	height: 100%;
+	width: 33.33%;
+	display: flex;
+}
+
+.shoes {
+	height: 100%;
+	width: 33.33%;
+	display: flex;
+}
+
+.contain-image {
+	height: 80%;
+	width: 80%;
+}
+
+.center {
+	justify-content: center;
+	align-items: center;
+}
+
+.contain-image2 {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.contain-image3 {
+	max-height: 170px;
+	max-width: 200px;
+}
+
+.section1 {
+	height: 100%;
+	width: 50%;
+	display: flex;
+}
+
+.section2 {
+	height: 100%;
+	width: 50%;
+	display: flex;
+}
+
+.uncledrew1 {
+	content:url(images/drew1.jpg);
+}
+
+.uncledrew2 {
+	content:url(images/drew2.jpg);
+}
+
+.uncledrew3 {
+	content:url(images/ud3.png);
+}
+
+.title2 {
+	content:url(images/title2.png);
+}
+
+.s1a {
+	content:url(images/s1a.jpg);
+}
+
+.s1b {
+	content:url(images/s1b.jpg);
+}
+
+.s1c {
+	content:url(images/s1c.jpg);
+}
+
+.s1d {
+	content:url(images/s1d.jpg);
+}
+
+.s1e {
+	content:url(images/s1e.jpg);
+}
+
+.s1f {
+	content:url(images/s1f.jpg);
+}
+
+.s2a {
+	content:url(images/s2a.png);
+}
+
+.s2c {
+	content:url(images/s2c.png);
+}
+
+.s2d {
+	content:url(images/s2d.png);
+}
+
+.s2e {
+	content: url(images/s2e.png)
+}
+
+.s2f {
+	content:url(images/s2f.png);
+}
+
+.s2b {
+	content:url(images/s2b.png);
+}
+
+.s3a {
+	content:url(images/s3a.png);
+}
+
+.s3b {
+	content:url(images/s3b.png);
+}
+
+.s3d {
+	content:url(images/s3d.png);
+}
+
+.s3e {
+	content:url(images/s3e.png);
+}
+
+.s3f {
+	content:url(images/s3f.png);
+}
+
+.s4a {
+	content:url(images/s4a.png);
+}
+
+.s4b {
+	content:url(images/s4b.png);
+}
+
+.s4c {
+	content:url(images/s4c.png);
+}
+
+.s4e {
+	content:url(images/s4e.png);
+}
+
+.s4f {
+	content:url(images/s4f.png);
+}
+
+.s5a {
+	content:url(images/s5a.png);
+}
+
+.s5b {
+	content:url(images/s5b.png);
+}
+
+.s5c {
+	content:url(images/s5c.png);
+}
+
+.s5d {
+	content:url(images/s5d.png);
+}
+
+.s5f {
+	content:url(images/s5f.png);
+}
+
+
+.red {background-color: #CA1B22;}
+.light_blue {background-color: #0B69C0;}
+.purple {background-color: #3A246D;}
+.light-grey {background-color: #A9A9A9;}
+.dark-grey {background-color: #707070;}
+.black {background-color: #000000;}
+.white {background-color: #FFFFFF;}
+.green {background-color: #008D24;}
+.orange {background-color: #EA6626;}
+.maroon {background-color: #6f263d;}
+
+@media only screen and (max-width: 700px) {
+	body {
+		width: 100%;
+		height: 170%;
+	}
+	
+	.column1 {
+		height: 10%;
+		width: 100%;
+		display: flex;
+	}
+	
+	.column2 {
+		height: 150%;
+		width: 100%;
+		display: block;
+	}
+	
+	.column3 {
+		height: 10%;
+		width: 100%;
+		display: block;
+	}
+	
+	.section1 {
+		height: 100%;
+		width: 100%;
+		display: flex;
+	}
+
+	.section2 {
+		height: 100%;
+		width: 100%;
+		display: flex;
+	}
+	
+	.main {
+		height: 33.33%;
+		width: 100%;
+		display: flex;
+	}
+	
+
+}
