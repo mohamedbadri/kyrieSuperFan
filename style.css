@@ -3,6 +3,7 @@ body {
 	height: 100%;
 	margin: 0;
 	display: block;
+	cursor: url(https://img.icons8.com/doodle/48/000000/basketball--v2.png) 10 10, auto;
 }
 
 .column1 {
@@ -45,13 +46,13 @@ body {
 
 .main {
 	height: 100%;
-	width: 33.33%;
+	width: calc(100%/3);
 	display: flex;
 }
 
 .shoes {
 	height: 100%;
-	width: 33.33%;
+	width: calc(100%/3);
 	display: flex;
 }
 
@@ -70,10 +71,6 @@ body {
 	max-width: 100%;
 }
 
-.contain-image3 {
-	max-height: 170px;
-	max-width: 200px;
-}
 
 .section1 {
 	height: 100%;
@@ -93,14 +90,18 @@ body {
 
 .uncledrew2 {
 	content:url(images/drew2.jpg);
+	background-color: orange;
 }
 
 .uncledrew3 {
 	content:url(images/ud3.png);
 }
 
+
 .title2 {
-	content:url(images/title2.png);
+	content:url(images/title2b.png);
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .s1a {
@@ -131,6 +132,10 @@ body {
 	content:url(images/s2a.png);
 }
 
+.s2b {
+	content:url(images/s2b.jpg);
+}
+
 .s2c {
 	content:url(images/s2c.png);
 }
@@ -147,9 +152,6 @@ body {
 	content:url(images/s2f.png);
 }
 
-.s2b {
-	content:url(images/s2b.png);
-}
 
 .s3a {
 	content:url(images/s3a.png);
@@ -157,6 +159,10 @@ body {
 
 .s3b {
 	content:url(images/s3b.png);
+}
+
+.s3c {
+	content:url(images/s3c.jfif);
 }
 
 .s3d {
@@ -183,6 +189,10 @@ body {
 	content:url(images/s4c.png);
 }
 
+.s4d {
+	content:url(images/s4d.jpg);
+}
+
 .s4e {
 	content:url(images/s4e.png);
 }
@@ -207,9 +217,99 @@ body {
 	content:url(images/s5d.png);
 }
 
+.s5e {
+	content:url(images/s5e.jpg);
+}
+
 .s5f {
 	content:url(images/s5f.png);
 }
+
+.s6a {
+	content:url(images/s6a.png);
+}
+
+.s6b {
+	content:url(images/s6b.png);
+}
+
+.s6c {
+	content:url(images/s6c.png);
+}
+
+.s6d {
+	content:url(images/s6d.png);
+}
+
+.s6e {
+	content:url(images/s6e.png);
+}
+
+.s6f {
+	content:url(images/s6f.png);
+}
+
+.gif1 {
+	content:url(images/Kyrie1.gif);
+}
+
+.gif2 {
+	content:url(images/Kyrie_Irving.gif);
+}
+
+.gif3 {
+	content:url(images/Kyrie3.gif);
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.shake:hover {
+  animation: shake 0.5s infinite;
+}  
+
+.shake:active {
+	animation; shadow-pulse .1s;
+}
+
+@keyframes shadow-pulse 
+{
+	0% {
+		transform: scale(.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.black-white {
+	filter: grayscale(80%);
+	cursor: pointer;
+}
+
+.color:hover {
+	filter: grayscale(0%);
+} 
+
+.cursor2:hover {
+	cursor: pointer;
+}
+.button-effect:active { 
+    transform: scale(0.95, 0.95);
+}
+
 
 
 .red {background-color: #CA1B22;}
@@ -260,10 +360,29 @@ body {
 	}
 	
 	.main {
-		height: 33.33%;
+		height: calc(100%/3);
 		width: 100%;
 		display: flex;
 	}
 	
+	.uncledrew {
+	height: 100%;
+	width: 20%;
+	display: flex;
+}
+
+	.logo {
+	height: 100%;
+	width: 20%;
+	display: flex;
+	}
+
+	.title {
+	height: 100%;
+	width: 60%;
+	display: flex;
+	}
+
+
 
 }
