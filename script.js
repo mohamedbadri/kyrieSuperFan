@@ -142,4 +142,5 @@ function kyrieTitle(){
 	h.classList.add("gif2");
 	i.classList.add("gif3");
 	k.classList.remove("button-effect ");
+        h.classList.remove("orange")
 }
