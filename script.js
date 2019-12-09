@@ -141,6 +141,7 @@ function kyrieTitle(){
 	g.classList.add("gif1"); 
 	h.classList.add("gif2");
 	i.classList.add("gif3");
-	k.classList.remove("button-effect ");
-        h.classList.remove("orange")
+	k.classList.remove("button-effect");
+	h.classList.remove("orange");
+	h.classList.add("green");
 }
