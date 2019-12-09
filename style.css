@@ -94,7 +94,7 @@ body {
 }
 
 .uncledrew3 {
-	content:url(images/ud3.PNG);
+	content:url(images/ud3.png);
 }
 
 
@@ -320,8 +320,8 @@ body {
 .dark-grey {background-color: #707070;}
 .black {background-color: #000000;}
 .white {background-color: #FFFFFF;}
-.green {background-color: #008D24;}
 .orange {background-color: #EA6626;}
+.green {background-color: #008D24;}
 .maroon {background-color: #6f263d;}
 
 @media only screen and (max-width: 700px) {
